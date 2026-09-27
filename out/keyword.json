@@ -1,0 +1,902 @@
+[
+ {
+  "id": "d001",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Не пишите мне больше.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d002",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Мы как раз вернулись к этому вопросу. Что входит в стоимость?",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d003",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d004",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Хорошо, спасибо за информацию.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d005",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Прекратите писать. Это спам.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d006",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Понятно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d007",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Интересно. Какие сроки, если начинать в октябре?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d008",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "А откуда у вас мой номер?",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d009",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Готовы продолжить. Нужна смета на двушку 54 метра.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d010",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Вы мне это пишете четвёртый раз за месяц.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d011",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Спасибо, посмотрю. Пока ничего не нужно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d012",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Интересно, конечно, но я уже написал вам: не пишите.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d013",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "Скидка будет? Тогда есть о чём говорить.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d014",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Хорошо, спасибо за информацию.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d015",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d016",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Давайте позже, сейчас нет времени.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d017",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d018",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Не надо мне звонить каждый день. Один раз нормально посчитайте прихожую.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d019",
+  "kind": "hard",
+  "outcome": "later",
+  "reply": "Отложили на неопределённый срок.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d020",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d021",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Отстаньте от меня с акциями, лучше пришлите смету на комнату.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d022",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d023",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Не надо мне звонить каждый день. Один раз нормально посчитайте прихожую.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d024",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Ну конечно, я всю жизнь мечтал о таком предложении.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d025",
+  "kind": "hard",
+  "outcome": "later",
+  "reply": "У нас пока другие траты.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d026",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Удалите мой номер из базы, я не хочу ничего получать.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d027",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Отпишите меня, пожалуйста, от этих сообщений.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d028",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "А откуда у вас мой номер?",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d029",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Может быть. Но не в этом году.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d030",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Спасибо, посмотрю. Пока ничего не нужно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d031",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Мы всё закрыли ещё весной, вопрос снят окончательно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d032",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Да, всё верно, я просил больше не беспокоить.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d033",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Удалите из рассылки, а по кухне отдельно напишите — это мне нужно.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d034",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d035",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Спасибо, посмотрю. Пока ничего не нужно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d036",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Давайте позже, сейчас нет времени.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d037",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Да, давайте обсудим. Когда сможете приехать на замер?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d038",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Давайте позже, сейчас нет времени.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d039",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Хорошо, я понял. Больше сообщений не присылайте.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d040",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d041",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Не сейчас, спасибо.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d042",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Может быть. Но не в этом году.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d043",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Да, ремонт был. Уже сделали у других. Не пишите.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d044",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Не звоните, пожалуйста, пишите сюда. Сколько стоит замена проводки?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d045",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Спасибо за предложение, но внесите меня в чёрный список.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d046",
+  "kind": "hard",
+  "outcome": "later",
+  "reply": "Отложили на неопределённый срок.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d047",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Удалите мой номер из базы, я не хочу ничего получать.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d048",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Интересно. Какие сроки, если начинать в октябре?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d049",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d050",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Ок.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d051",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Хватит. Ещё одно сообщение — пожалуюсь.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d052",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Ага, видел.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d053",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Мы как раз вернулись к этому вопросу. Что входит в стоимость?",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d054",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "Соседям делали в том же доме — хочу так же.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d055",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Да, ремонт всё ещё актуален. Сколько будет стоить кухня 9 метров?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d056",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Ну конечно, я всю жизнь мечтал о таком предложении.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d057",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Спасибо, посмотрю. Пока ничего не нужно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d058",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Да, всё верно, я просил больше не беспокоить.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d059",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "Соседям делали в том же доме — хочу так же.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d060",
+  "kind": "hard",
+  "outcome": "vague",
+  "reply": "Ок.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d061",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d062",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Пока отложили ремонт. Может быть, весной.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d063",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d064",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Ваше прошлое сообщение — спам какой-то. Нормально объясните, что входит в цену.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d065",
+  "kind": "hard",
+  "outcome": "later",
+  "reply": "Вряд ли в обозримом будущем.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d066",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d067",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Не звоните, пожалуйста, пишите сюда. Сколько стоит замена проводки?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d068",
+  "kind": "direct",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d069",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Хватит рекламы, скажите по делу: какая цена за квадрат?",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d070",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Мы всё закрыли ещё весной, вопрос снят окончательно.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d071",
+  "kind": "hard",
+  "outcome": "later",
+  "reply": "Отложили на неопределённый срок.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d072",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Не пишите мне больше.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d073",
+  "kind": "direct",
+  "outcome": "stop",
+  "reply": "Отпишите меня, пожалуйста, от этих сообщений.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d074",
+  "kind": "hard",
+  "outcome": "handoff",
+  "reply": "А откуда у вас мой номер?",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d075",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Цена интересна, но бюджет будет только к лету.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d076",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Я подумаю и сам напишу, если что.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d077",
+  "kind": "hard",
+  "outcome": "stop",
+  "reply": "Ну конечно, я всю жизнь мечтал о таком предложении.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d078",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Хорошо, я понял. Больше сообщений не присылайте.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d079",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Удалите из рассылки, а по кухне отдельно напишите — это мне нужно.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d080",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d081",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Цена интересна, но бюджет будет только к лету.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d082",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Давайте позже, сейчас нет времени.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d083",
+  "kind": "direct",
+  "outcome": "handoff",
+  "reply": "Да, давайте обсудим. Когда сможете приехать на замер?",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d084",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Пока отложили ремонт. Может быть, весной.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d085",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Спасибо за предложение, но внесите меня в чёрный список.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d086",
+  "kind": "hard",
+  "outcome": "silence",
+  "reply": null,
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d087",
+  "kind": "direct",
+  "outcome": "later",
+  "reply": "Давайте позже, сейчас нет времени.",
+  "decision": "followup",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d088",
+  "kind": "trap",
+  "outcome": "later",
+  "reply": "Цена интересна, но бюджет будет только к лету.",
+  "decision": "handoff",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d089",
+  "kind": "trap",
+  "outcome": "stop",
+  "reply": "Спасибо за предложение, но внесите меня в чёрный список.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ },
+ {
+  "id": "d090",
+  "kind": "trap",
+  "outcome": "handoff",
+  "reply": "Отстаньте от меня с акциями, лучше пришлите смету на комнату.",
+  "decision": "stop",
+  "sec": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0
+ }
+]
